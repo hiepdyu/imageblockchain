@@ -169,7 +169,7 @@ def is_copyright(file, blockchain):
 
 # ============ GIAO DIỆN ============
 def main():
-    st.set_page_config("Bản quyền ảnh Blockchain", layout="wide")
+    st.set_page_config("Image Blockchain", layout="wide")
     
     # Khởi tạo
     if 'owner' not in st.session_state:
