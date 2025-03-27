@@ -8,6 +8,8 @@ from PIL import Image
 import cv2
 import numpy as np
 
+os.system("pip install -r requirements.txt")
+
 # ============ BLOCKCHAIN ============
 class Block:
     def __init__(self, index, previous_hash, timestamp, data, hash):
